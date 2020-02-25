@@ -15,6 +15,13 @@ module.exports = {
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
     // e.g. "@typescript-eslint/explicit-function-return-type": "off",
   },
+  settings: {
+    'import/resolver': {
+      'node': {
+        "extensions": ['.js', '.jsx', '.ts', '.tsx']
+      }
+    }
+  },
   overrides: [
     {
       files: ['*.test.*', '*.js'],
