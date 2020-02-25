@@ -11,7 +11,8 @@ module.exports = {
     sourceType: "module" // Allows for the use of imports
   },
   rules: {
-    'global-require': 0
+    'global-require': 0,
+    '@typescript-eslint/explicit-function-return-type': 'error'
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
     // e.g. "@typescript-eslint/explicit-function-return-type": "off",
   },
