@@ -5,7 +5,13 @@
   "repository": "https://github.com/jonathanikpeazu/eslint-config-johno.git",
   "author": "Jonathan Ikpeazu <jonathan.ikpeazu@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint-config-prettier": "^6.10.0"
+  },
   "peerDependencies": {
-    "eslint-config-airbnb": "^18.0.1"
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2"
   }
 }
