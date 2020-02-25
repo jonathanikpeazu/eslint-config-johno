@@ -13,7 +13,8 @@ module.exports = {
   rules: {
     'global-require': 0,
     '@typescript-eslint/explicit-function-return-type': 'error',
-    'semi': 2
+    'semi': 2,
+    'import/extensions': 0
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
     // e.g. "@typescript-eslint/explicit-function-return-type": "off",
   },
