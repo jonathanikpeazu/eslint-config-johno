@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-johno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jonathanikpeazu/eslint-config-johno.git",
+  "author": "Jonathan Ikpeazu <jonathan.ikpeazu@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint-config-airbnb": "^18.0.1"
+  }
+}
