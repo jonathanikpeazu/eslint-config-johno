@@ -40,5 +40,11 @@ module.exports = {
         '@typescript-eslint/no-var-requires': 0
       },
     },
+    {
+      files: ['*.json'],
+      rules: {
+        'no-unused-expressions': 0,
+      }
+    }
   ]
 };
